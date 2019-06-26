@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2c0d4ff-4a92-47fc-8638-b92ef5b72d5b" name="Default Changelist" comment="" />
+    <list default="true" id="b2c0d4ff-4a92-47fc-8638-b92ef5b72d5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egencia/User/MyObjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/egencia/User/SalaryToDoubleConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/egencia/Employee/EmpInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/egencia/Employee/EmpInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/egencia/Employee/Salary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/egencia/Employee/Salary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/egencia/Employee/Tech.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/egencia/Employee/Tech.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/egencia/User/CustomMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/egencia/User/CustomMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/egencia/User/MapperConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/egencia/User/MapperConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/egencia/User/MyConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/egencia/User/MyConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/egencia/User/PopulateInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/egencia/User/PopulateInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/egencia/User/RealMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/egencia/User/RealMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/egencia/UserMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/egencia/UserMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/egencia/Employee/EmpInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/egencia/Employee/EmpInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/egencia/Employee/Salary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/egencia/Employee/Salary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/egencia/Employee/Tech.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/egencia/Employee/Tech.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/egencia/User/MapperConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/egencia/User/MapperConf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/egencia/User/MyConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/egencia/User/MyConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/egencia/User/PopulateInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/egencia/User/PopulateInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/egencia/User/RealMapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/egencia/User/RealMapping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/egencia/UserMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/egencia/UserMain.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,19 +32,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="UserEmployeetest" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/UserMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="40" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="40" />
+            <state relative-caret-position="315">
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/User/MyConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,29 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/User/RealMapping.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/User/CustomMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/User/MyConverter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state relative-caret-position="216">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,60 +76,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/User/MapperConf.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/User/SalaryToDoubleConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#645#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/User/PopulateInfo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/Employee/Salary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/proto/user.proto">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/Employee/Tech.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/Employee/EmpInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,10 +114,17 @@
       <find>class User</find>
       <find>setName</find>
       <find>convert</find>
+      <find>myconverter</find>
+      <find>real</find>
+      <find>De</find>
+      <find>applicationcontext</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -164,15 +146,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/egencia/User/UserMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/egencia/User/UserInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/egencia/User/Converter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/egencia/User/RealMapping.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/egencia/Employee/Tech.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/egencia/User/MapperConf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/egencia/User/MyObjectMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/egencia/User/CustomMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/egencia/Employee/Salary.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/egencia/User/PopulateInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/egencia/Employee/EmpInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/egencia/User/RealMapping.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/egencia/UserMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/egencia/User/MyConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/egencia/User/CustomMap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/egencia/Employee/Tech.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/egencia/User/PopulateInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/egencia/User/SalaryToDoubleConverter.java" />
       </list>
     </option>
   </component>
@@ -198,16 +182,19 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="811" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="781" />
+    <option name="y" value="59" />
+    <option name="width" value="733" />
+    <option name="height" value="700" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,15 +253,50 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="proto" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="UserEmployeetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UserEmployeetest" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UserEmployeetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UserEmployeetest" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UserEmployeetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UserEmployeetest" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+              <item name="protobuf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UserEmployeetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UserEmployeetest" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+              <item name="protobuf" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UserEmployeetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UserEmployeetest" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+              <item name="protobuf" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UsrStruct" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -331,23 +353,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" sideWeight="0.501002" side_tool="true" weight="0.24964234" />
+      <window_info id="Favorites" order="3" sideWeight="0.5036765" side_tool="true" visible="true" weight="0.2532189" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.498998" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49632353" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49928468" weight="0.70843375" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49928468" weight="0.22409639" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5007153" side_tool="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.49928468" weight="0.32891566" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.49928468" weight="0.42409638" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49928468" visible="true" weight="0.42048192" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.38915664" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49928468" visible="true" weight="0.34457833" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.35783133" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -364,23 +385,41 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/egencia/UserMain.java</url>
-          <line>22</line>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/egencia/User/MapperConf.java</url>
+          <line>28</line>
           <properties />
-          <option name="timeStamp" value="18" />
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/egencia/UserMain.java</url>
-          <line>21</line>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/ma/glasnost/orika/orika-core/1.5.4/orika-core-1.5.4-sources.jar!/ma/glasnost/orika/impl/ConfigurableMapper.java</url>
+          <line>107</line>
           <properties />
-          <option name="timeStamp" value="19" />
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/egencia/User/RealMapping.java</url>
-          <line>21</line>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/egencia/User/MapperConf.java</url>
+          <line>45</line>
           <properties />
-          <option name="timeStamp" value="27" />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/egencia/User/MapperConf.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/egencia/User/MapperConf.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/egencia/User/MapperConf.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -421,24 +460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ma/glasnost/orika/orika-core/1.5.4/orika-core-1.5.4-sources.jar!/ma/glasnost/orika/impl/ConfigurableMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="118" column="8" selection-start-line="118" selection-start-column="8" selection-end-line="118" selection-end-column="8" />
-          <folding>
-            <element signature="e#2937#2938#0" expanded="true" />
-            <element signature="e#2959#2960#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ma/glasnost/orika/orika-core/1.5.4/orika-core-1.5.4-sources.jar!/ma/glasnost/orika/CustomConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/ma/glasnost/orika/orika-core/1.5.4/orika-core-1.5.4-sources.jar!/ma/glasnost/orika/metadata/Type.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -450,30 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="54" column="61" lean-forward="true" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ma/glasnost/orika/orika-core/1.5.4/orika-core-1.5.4-sources.jar!/ma/glasnost/orika/impl/DefaultMapperFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2984">
-          <caret line="876" column="24" selection-start-line="876" selection-start-column="24" selection-end-line="876" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/Employee/Salary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/User/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -584,77 +581,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/User/CustomMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/User/RealMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/UserMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/lang/Iterable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
           <caret line="49" column="7" lean-forward="true" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/protobuf/java/UsrStruct/UserStruct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="802" column="28" selection-start-line="802" selection-start-column="20" selection-end-line="802" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/Employee/Tech.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/Employee/EmpInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/User/PopulateInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -665,13 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ma/glasnost/orika/orika-core/1.5.4/orika-core-1.5.4-sources.jar!/ma/glasnost/orika/MappingContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/ma/glasnost/orika/orika-core/1.5.4/orika-core-1.5.4-sources.jar!/ma/glasnost/orika/metadata/TypeFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -679,22 +602,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/User/MyConverter.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/ma/glasnost/orika/orika-core/1.5.4/orika-core-1.5.4.jar!/ma/glasnost/orika/Converter.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/User/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="404">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/User/MapperConf.java">
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/protobuf/java/UsrStruct/UserStruct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
+        <state relative-caret-position="230">
+          <caret line="803" column="30" selection-start-line="803" selection-start-column="30" selection-end-line="803" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ma/glasnost/orika/orika-core/1.5.4/orika-core-1.5.4-sources.jar!/ma/glasnost/orika/impl/DefaultMapperFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ma/glasnost/orika/orika-core/1.5.4/orika-core-1.5.4-sources.jar!/ma/glasnost/orika/ObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ma/glasnost/orika/orika-core/1.5.4/orika-core-1.5.4-sources.jar!/ma/glasnost/orika/MapperFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="117" column="13" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ma/glasnost/orika/orika-core/1.5.4/orika-core-1.5.4-sources.jar!/ma/glasnost/orika/MappingContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/User/MyObjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ma/glasnost/orika/orika-core/1.5.4/orika-core-1.5.4-sources.jar!/ma/glasnost/orika/CustomConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-327">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/User/CustomMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="26" column="69" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ma/glasnost/orika/orika-core/1.5.4/orika-core-1.5.4-sources.jar!/ma/glasnost/orika/impl/ConfigurableMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+          <folding>
+            <element signature="e#2937#2938#0" expanded="true" />
+            <element signature="e#2959#2960#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/User/MapperConf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#1335#1336#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
+            <element signature="e#2238#2267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/Employee/Tech.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/User/PopulateInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/Employee/EmpInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/User/RealMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/Employee/Salary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#201#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/UserMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/User/MyConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/egencia/User/SalaryToDoubleConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#645#0" expanded="true" />
           </folding>
         </state>
       </provider>

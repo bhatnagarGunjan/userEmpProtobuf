@@ -6,8 +6,16 @@ import org.springframework.stereotype.Component;
 public class EmpInfo {
     private String name;
     private int age;
-    private Salary salary;
+    public Salary salary;
     private Tech tech;
+
+//
+//    public EmpInfo(String name, int age, Salary salary, Tech tech) {
+//        this.name = name;
+//        this.age = age;
+//        this.salary = salary;
+//        this.tech = tech;
+//    }
 
     public String getName() {
         return name;

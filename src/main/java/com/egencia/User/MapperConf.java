@@ -1,8 +1,10 @@
 package com.egencia.User;
 
+import UsrStruct.UserStruct;
 import ma.glasnost.orika.Converter;
 import ma.glasnost.orika.Mapper;
 import ma.glasnost.orika.MapperFactory;
+import ma.glasnost.orika.ObjectFactory;
 import ma.glasnost.orika.impl.ConfigurableMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -11,17 +13,34 @@ import org.springframework.stereotype.Component;
 import java.util.Map;
 
 
-@ComponentScan
+@Component
 public class MapperConf extends ConfigurableMapper  {
 
-
     private ApplicationContext applicationContext;
+
     private MapperFactory mapperFactory;
-    private Converter converter;
+
+    public MapperConf() {
+        super(false);
+    }
+
     @Autowired
     public void setApplicationContext(ApplicationContext applicationContext) {
         this.applicationContext = applicationContext;
+        this.init();
+
     }
+
+//    @Autowired
+//    private CustomMap customMap;
+
+//    @Autowired
+//    public MapperConf(ApplicationContext applicationContext){
+//        this.applicationContext=applicationContext;
+//    }
+
+
+
     @Override
     protected void configure(MapperFactory factory) {
         super.configure(factory);
@@ -41,6 +60,7 @@ public class MapperConf extends ConfigurableMapper  {
     private void addMapper(Mapper<?, ?> mapper) {
         this.mapperFactory.registerMapper(mapper);
     }
+
     public MapperFactory getMapperFactory() {
         return mapperFactory;
     }
@@ -58,6 +78,20 @@ public class MapperConf extends ConfigurableMapper  {
         this.mapperFactory.getConverterFactory().registerConverter(converter);
     }
 
+    private void addSpringObjectFactories() {
+        @SuppressWarnings("rawtypes") final Map<String, ObjectFactory> objectFactories = applicationContext.getBeansOfType(ObjectFactory.class);
+
+        for (final Map.Entry<String, ObjectFactory> entry : objectFactories.entrySet()) {
+            addObjectFactory(entry);
+        }
+    }
+        private void addObjectFactory(Map.Entry<?,?> entry){
+//            final ObjectFactory factory=(ObjectFactory)entry.getValue();
+//            final Class<? extends ObjectFactory> ob=factory.getClass();
+            this.mapperFactory.registerObjectFactory(new MyObjectMapper(), UserStruct.User.Builder.class);
+            //addObjectFactories(objectFactory);
+        }
+    }
 
 //    private ApplicationContext applicationContext;
 //    private MapperFactory mapperFactory;
@@ -74,6 +108,6 @@ public class MapperConf extends ConfigurableMapper  {
 //    }
 ////
 
-    }
+
 
 

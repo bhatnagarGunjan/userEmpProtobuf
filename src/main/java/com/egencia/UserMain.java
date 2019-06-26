@@ -1,26 +1,25 @@
 package com.egencia;
 
 import com.egencia.User.RealMapping;
-import ma.glasnost.orika.MapperFactory;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 
-@SpringBootApplication
+@Configuration
+@ComponentScan
 public class UserMain {
-
-//
-//    @Autowired
-//    private MapperFactory mapperFactory;
-
 
     public static void main(String[] args) {
 
-        ConfigurableApplicationContext context = SpringApplication.run(UserMain.class,args);
-
+        ApplicationContext context = new AnnotationConfigApplicationContext(UserMain.class);
+        //System.out.println("@@@@@@@@@@@@@@@@@@@@@@@       " +context);
         RealMapping rm = context.getBean(RealMapping.class);
+      //  System.out.println("###############      RM  " +rm);
         System.out.println(rm.mapEmpInfo());
+        System.out.println("\n\n\n\n");
+        //System.out.println(rm.mapUserInfo());
+       // System.out.println(rm.mapUserInfo());
 
 
     }

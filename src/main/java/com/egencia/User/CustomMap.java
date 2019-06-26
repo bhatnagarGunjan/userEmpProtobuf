@@ -9,13 +9,12 @@
 //import ma.glasnost.orika.MappingContext;
 //import ma.glasnost.orika.impl.generator.specification.Convert;
 //import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.context.ApplicationContext;
 //import org.springframework.stereotype.Component;
 //
-//@Component
+////@Component
 //public class CustomMap extends CustomMapper<UserStruct.User.Builder, EmpInfo> {
 //
-//    //@Autowired
-//    private MapperFacade mapperFacade;
 //    @Autowired
 //    private MyConverter myConverter;
 //    @Autowired
@@ -25,10 +24,10 @@
 //    public void mapAtoB(UserStruct.User.Builder userInfo, EmpInfo empInfo, MappingContext context) {
 //        empInfo.setName(userInfo.getName());
 //        empInfo.setAge(userInfo.getAge());
-//        empInfo.setSalary(myConverter.convert(userInfo.getSalary(),salary));
+//        empInfo.setSalary(myConverter.convert(userInfo.getSalary(),salary,null));
 //        //Salary sal =new Salary();
-////        sal.setSalary(userInfo.getSalary());
-////        empInfo.setSalary(sal);
+//       // sal.setSalary(userInfo.getSalary());
+//        //empInfo.setSalary(sal);
 //    }
 //
 //    @Override

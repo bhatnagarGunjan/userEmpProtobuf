@@ -6,6 +6,7 @@ import com.egencia.Employee.Salary;
 import com.egencia.Employee.Tech;
 import com.sun.xml.internal.bind.v2.runtime.reflect.Lister;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
@@ -41,7 +42,11 @@ public class PopulateInfo {
         empInfo.setAge(21);
         salary.setSalary(40000);
         empInfo.setSalary(salary);
-        tech.setTech(Arrays.asList("dj"));
+        ArrayList<String> arr = new ArrayList<>();
+        tech.setTech();
+        tech.addElement("a");
+        tech.addElement("b");
+
         return empInfo;
     }
 

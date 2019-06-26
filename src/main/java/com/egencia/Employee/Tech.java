@@ -12,8 +12,11 @@ public class Tech {
         return Tech;
     }
 
-    public void setTech(ArrayList<String> tech) {
-        for(String tech1 : tech)
-        this.Tech.add(tech1);
+    public void setTech() {
+        this.Tech = new ArrayList<>();
+    }
+
+    public void addElement(String element){
+        this.Tech.add(element);
     }
 }

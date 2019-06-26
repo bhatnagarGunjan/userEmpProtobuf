@@ -5,6 +5,7 @@ import com.egencia.Employee.Salary;
 import ma.glasnost.orika.CustomConverter;
 import ma.glasnost.orika.MappingContext;
 import ma.glasnost.orika.metadata.Type;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.annotation.AliasFor;
 import org.springframework.stereotype.Component;
@@ -19,13 +20,6 @@ public class MyConverter extends CustomConverter<Double, Salary> {
         salary.setSalary(source);
         return salary;
     }
-
-//
-//    public Salary convert(Double valueOf, Salary salary) {
-//        salary.setSalary(valueOf);
-//        return salary;
-//
-//    }
 }
 
 

@@ -13,4 +13,11 @@ public class Salary {
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
+    @Override
+    public String toString() {
+        return "Salary{" +
+                "salary=" + salary +
+                '}';
+    }
 }
